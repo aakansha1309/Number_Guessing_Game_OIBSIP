@@ -9,7 +9,6 @@ import java.util.Scanner;
                 Random rand = new Random();
                 computer = rand.nextInt(100);
                 System.out.println("Guess the Number from 1 to 100 ");
-
             }
             public int computerNo() {
                 return computer;
