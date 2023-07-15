@@ -5,6 +5,7 @@ import java.util.Scanner;
 
         class Game1{
             int computer;
+            
             public Game1() {
                 Random rand = new Random();
                 computer = rand.nextInt(100);
